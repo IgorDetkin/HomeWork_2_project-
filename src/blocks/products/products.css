@@ -1,0 +1,131 @@
+
+.products {
+    width: 100%;
+    height: 720px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.products__container {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__title {
+    margin: 79px 0 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    text-align: center;
+}
+
+.products__button-more {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444240;
+    background: none;
+    margin: -5px 0 26px;
+    padding: 0 0 7px 0;
+    border: none;
+    border-bottom: 1px solid #C4C0B6;
+    align-self: flex-end;
+}
+
+.products__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.products__card {
+    box-sizing: border-box;
+    width: 370px;
+    height: 467px;
+    background: #FDFDFB;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 29px 40px 28px;
+}
+
+.products__name {
+    margin: 0 0 2px 12px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+    text-transform: uppercase;
+}
+
+.products__price {
+    margin: 0 0 0 12px;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.products__wrapper-img {
+    /* position: relative;
+    width: 313px;
+    height: 313px; */
+    /*top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;*/
+    /* z-index: 2; */
+}
+
+
+
+.products__img {
+    border: 1px solid rgba(226, 208, 196, 1);
+    border-radius: 50%;
+    width: 313px;
+    height: 313px;
+}
+
+/* .products__border {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    background: linear-gradient(0deg, rgba(233, 227, 212, 1) 0%, rgba(226, 208, 196, 0) 100%);
+    border-radius: 50%;
+} */
+
+
+.products__down-block {
+    margin: 10px 0 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.products__line {
+    width: 30px;
+    height: 0;
+    border: 1px solid #8B8371;
+}
+
+.products__subtext {
+    margin: 0 0 0 18px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+}
